@@ -1,10 +1,12 @@
-import React from "react";
-import "./style.css";
+document.querySelector(".overlap-group-3").addEventListener(
+  "mouseover", function () {
 
-export const DownloadResume = ({ className }) => {
-  return (
-    <div className={`download-resume ${className}`}>
-      <div className="text-wrapper">Download Resume</div>
-    </div>
-  );
-};
+      document.querySelector(".overlap-group-3").style.background
+          = "#3C9EE7";
+  })
+document.querySelector(".overlap-group-3").addEventListener(
+  "mouseout", function () {
+
+      document.querySelector(".overlap-group-3").style.background
+          = "black";
+  })
