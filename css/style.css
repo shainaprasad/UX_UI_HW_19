@@ -576,8 +576,7 @@
     position: relative;
     width: 520px;
     height: 78px;
-    border: 1px solid;
-    border-color: #000000;
+    background-color: #000000;
   }
   
   .landing-page .text-wrapper-21 {
@@ -586,7 +585,7 @@
     left: 182px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
